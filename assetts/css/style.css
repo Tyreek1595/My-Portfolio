@@ -1,9 +1,16 @@
 .style{
 	color:blue;
+	border: 2px solid;
+	width: 50%;
+	margin:0 auto;
+	margin-bottom: 10px;
+	padding: 100px;
+	display: flex;
+	flex-direction: row;
 }
 
 .style p{
-	font-size: 20px
+	/*font-size: 20px*/
 }
 
 .style img{
@@ -13,4 +20,24 @@
 	height:500px;
 	width:500px;
 
+}
+
+.nav{
+	width:50%;
+	border: 2px solid;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+.flex{
+	height: 50px;
+	width: 50px;
+	border: 2px solid;
+}
+
+.flexe{
+	width: 30%;
+	height: 30%;
+	border: 2px dotted;
 }
